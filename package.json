@@ -1,0 +1,19 @@
+{
+  "name": "blastcut",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Temporal supply-chain containment analysis backed by HydraDB or deterministic fixture mode.",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "check": "tsc --noEmit",
+    "test": "tsx --test test/**/*.test.ts",
+    "seed:hydradb": "tsx scripts/seed-hydradb.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

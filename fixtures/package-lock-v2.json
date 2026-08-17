@@ -1,0 +1,1 @@
+{"name":"demo","lockfileVersion":2,"packages":{"":{"name":"demo","dependencies":{"a":"1.0.0"}},"node_modules/a":{"version":"1.0.0","dependencies":{"shared":"1.0.0"}},"node_modules/a/node_modules/shared":{"version":"1.0.0"},"node_modules/shared":{"version":"2.0.0"}}}

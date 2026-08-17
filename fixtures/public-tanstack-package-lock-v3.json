@@ -1,0 +1,10 @@
+{
+  "name": "public-tanstack-lock-snapshot",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {"name": "public-tanstack-lock-snapshot", "dependencies": {"@tanstack/start": "1.120.7"}},
+    "node_modules/@tanstack/start": {"version": "1.120.7", "dependencies": {"@tanstack/router": "1.120.7"}},
+    "node_modules/@tanstack/router": {"version": "1.120.7"}
+  }
+}
